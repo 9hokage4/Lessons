@@ -1,14 +1,43 @@
 package test;
-import exampleses.*;
+
+import java.util.ArrayList;
 
 public class Main{
+public static void main(String[] args) {
 
-    public static void main(String[] args) {
-        String s = "This is John. He is 27 years old.";
-        String name = s.substring(8, 12);
-        int age = Integer.parseInt(s.substring(20, 22));
-        Person person = new Person(name, age);
-        System.out.println(person.getAge());
-        System.out.println(person.getName());
+ ArrayList<Integer> index = new ArrayList<>();
+ for (int i = 0; i <= 5; i++){
+    index.add(i);
+ }
+
+ ArrayList<String> name = new ArrayList<>();
+ name.add("Jonh");
+ name.add("Emma");
+ name.add("Lois");
+ name.add("Nick");
+ name.add("Martin");
+
+ ArrayList<String> result = new ArrayList<>();
+
+ for (int i = 0; i < name.size(); i++){
+    String s = index.get(i) + " - " + name.get(i);
+    result.add(s);
+ }
+
+ for (String string : result) System.out.println(string);
+
 }
+
+  
+
+private static ArrayList<String> getEmployees(){
+ArrayList<String> employees = new ArrayList<>();
+employees.add("John");
+employees.add("Olivia");
+employees.add("Emma");
+employees.add("Max");
+employees.add("Nick");
+return employees;
+}
+
 }
