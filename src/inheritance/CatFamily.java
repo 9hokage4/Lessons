@@ -2,9 +2,9 @@ package inheritance;
 
 public class CatFamily {
 
-    public int legs;
-    public int eyes;
-    public boolean canEatPerson;
+    protected int legs;
+    protected int eyes;
+    protected boolean canEatPerson;
 
     public CatFamily(int legs, int eyes, boolean canEatPerson){
         this.legs = legs;
