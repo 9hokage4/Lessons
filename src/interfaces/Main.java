@@ -9,11 +9,11 @@ public class Main {
         Bird bird = new Bird();
         Fish fish = new Fish();
 
-        ArrayList<ableToRun> animals = new ArrayList<>();
+        ArrayList<AbleToRun> animals = new ArrayList<>();
         animals.add(cat);
         animals.add(dog);
 
-        for (ableToRun animal : animals){
+        for (AbleToRun animal : animals){
             animal.run();
         }
 

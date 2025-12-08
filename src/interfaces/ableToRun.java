@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface ableToRun {
+public interface AbleToRun {
     void run();
 }
