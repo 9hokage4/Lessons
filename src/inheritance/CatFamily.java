@@ -6,9 +6,9 @@ public class CatFamily {
     public int eyes;
     public boolean canEatPerson;
 
-    public CatFamily(){
-        legs = 4;
-        eyes = 2;
-        canEatPerson = true;
+    public CatFamily(int legs, int eyes, boolean canEatPerson){
+        this.legs = legs;
+        this.eyes = eyes;
+        this.canEatPerson = canEatPerson;
     }
 }
