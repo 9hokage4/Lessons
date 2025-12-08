@@ -1,15 +1,12 @@
 package test;
 
-import inheritance.Cat;
-import inheritance.Lion;
+import inheritance.*;
 
 public class Main{
 public static void main(String[] args) {
-   Cat cat = new Cat();
-   Lion lion = new Lion();
-
-   System.out.println(cat.eat());
-   System.out.println(lion.eat());
-   
+   Rect rect = new Rect(10, 20);
+   Triangle triangle = new Triangle(10, 10, 10);
+   triangle.showPerimeter();
+   rect.showPerimeter();
 }
 }
