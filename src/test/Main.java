@@ -8,8 +8,8 @@ public static void main(String[] args) {
    Cat cat = new Cat();
    Lion lion = new Lion();
 
-   System.out.println(cat.getEyes());
-   System.out.println(lion.getLegs());
+   System.out.println(cat.eat());
+   System.out.println(lion.eat());
    
 }
 }
