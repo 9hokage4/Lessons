@@ -1,9 +1,7 @@
 package interfaces;
 
-public class Director implements Work {
-
-    @Override
-    public void work(){
-        System.out.println("Директор работает");
+public class Director{
+    public void force(Work worker){
+        worker.work();
     }
 }
